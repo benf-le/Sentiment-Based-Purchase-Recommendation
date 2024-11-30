@@ -28,7 +28,7 @@ model_paths = {
     "BiLSTM Model": "model/bilstm.keras",
     "GRU Model": "model/gru.keras",
     "BiGRU Model": "model/bigru.keras",
-    "CNN Model": "model/cnn.keras",
+    # "CNN Model": "model/cnn.keras",
     "Fusion BiLSTM CNN Model": "model/fusion_bilstm_cnn.keras",
     "Fusion BiGRU CNN Model": "model/fusion_bigru_cnn.keras",
     "Ensemble BiGRU CNN Model": "model/ensemble_bigru_cnn.keras",
