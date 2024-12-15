@@ -87,7 +87,7 @@ st.set_page_config(
 # Sidebar
 with st.sidebar:
     st.header("Applications")
-    app_mode = st.radio("Choose an application", ["Sentiment-Based Purchase Recommendation", "Sentiment Analysis"])
+    app_mode = st.radio("Choose an application", ["Sentiment Analysis","Sentiment-Based Purchase Recommendation"])
 
 if app_mode == "Sentiment Analysis":
     st.title("Vietnamese Review Sentiment Analysis 😊🤔😢")
